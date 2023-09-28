@@ -249,7 +249,7 @@ if ENV["IMPORT"] == "1"
   gem "redcarpet"
 
   # NOTE: in import mode the version of sqlite can matter a lot, so we stick it to a specific one
-  gem "sqlite3", "~> 1.3", ">= 1.3.13"
+  gem "sqlite3", "~> 1.4", ">= 1.4.13"
   gem "ruby-bbcode-to-md", git: "https://github.com/nlalonde/ruby-bbcode-to-md"
   gem "reverse_markdown"
   gem "tiny_tds"
